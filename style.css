@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+    /* From https://www.webfx.com/blog/web-design/responsive-background-image/ */
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: 3B3131;
+    
+}
+h1.title{
+    color: #3B3131;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3.title{
+    color: #313B3B;
+    text-align: center;
+}
+h2.title{
+    color: #3B3131;
+}
+p {
+    font-size: large;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(151, 151, 151);
+    color: black;
+}
+img {
+    border: 20px solid #3B3131;
+    border-radius: 5px;
+}
+hr.big{
+    border-top: 15px dashed #3B3131;
+}
+hr.small{
+    border-top: 2px solid #313B3B;
+}
