@@ -11,20 +11,27 @@ h1.title{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h1.assignment7{
+    color: #DD571C;
+    text-align: center;
+}
 h3.title{
-    color: #313B3B;
+    color: #DD571C;
     text-align: center;
 }
 h2.title{
     color: #3B3131;
+    margin-left: 50px;
 }
 p {
     font-size: large;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 footer {
     text-align: center;
     padding: 3px;
-    background-color: rgb(151, 151, 151);
+    background-color: #DD571C;
     color: black;
 }
 img {
@@ -32,7 +39,16 @@ img {
     border-radius: 5px;
 }
 hr.big{
-    border-top: 15px dashed #3B3131;
+    border-top: 12px dashed #3B3131;
+}
+hr.bottom1{
+    border-top: 8px dashed #DD571C;
+}
+hr.bottom2{
+    border-top: 11px dashed #694637;
+}
+hr.bottom3{
+    border-top: 14px dashed #3B3131;
 }
 hr.small{
     border-top: 2px solid #313B3B;
