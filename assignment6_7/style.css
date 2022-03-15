@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+    /* From https://www.webfx.com/blog/web-design/responsive-background-image/ */
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: 3B3131;
+    
+}
+h1.title{
+    color: #3B3131;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1.assignment7{
+    color: #DD571C;
+    text-align: center;
+}
+h3.title{
+    color: #DD571C;
+    text-align: center;
+}
+h2.title{
+    color: #3B3131;
+    margin-left: 50px;
+}
+p {
+    font-size: large;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #DD571C;
+    color: black;
+}
+img {
+    border: 20px solid #3B3131;
+    border-radius: 5px;
+}
+hr.big{
+    border-top: 12px dashed #3B3131;
+}
+hr.bottom1{
+    border-top: 8px dashed #DD571C;
+}
+hr.bottom2{
+    border-top: 11px dashed #694637;
+}
+hr.bottom3{
+    border-top: 14px dashed #3B3131;
+}
+hr.small{
+    border-top: 2px solid #313B3B;
+}
