@@ -1,0 +1,111 @@
+/* html {
+    font-size: 200%;
+} */
+
+h1, h2, h3 {
+    color: #06114F;
+    font-family: 'Kulim Park', sans-serif;
+    /* font-size: 200%; */
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  p{
+    color: #3f1651;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    /* font-size: 200%; */
+  } 
+
+  /* From Assignment 7--unnecessary. LINE 23-44 */
+        ul {
+            border: 4px solid purple;
+        }
+        ol {
+            border: 4px solid plum;
+        }
+        ol, ul {
+            color: indigo;
+            padding: 5px 20px;
+            border-radius: 4px;
+            font-size: smaller;
+            font-family: 'Permanent Marker', cursive;
+        }
+        em {
+            color: indigo;
+          }
+          strong {
+              font-weight: bold;
+              color: black;
+        }
+  /* From Assignment 7. unnecessary */
+
+
+  header, main, aside, footer {
+      padding: 2em;
+      border: 2px solid #ca8560;
+      /* f7a579 */
+      border-radius: 1%;
+      /* font-size: 200%; */
+  } 
+
+  /* A bunch of unecessary gradient included in each grid. 
+                    FOR PRACTICE (Lined up diagonal gradiant degrees)
+  */
+
+  body{
+      /* Gradient makes the container look like its glowing :) */
+      background-image: linear-gradient(270deg,black,silver,whitesmoke,silver, black);
+    }
+    .item-head {
+      grid-area: head;
+      background-image: linear-gradient(160deg, #e8e8e8, silver);
+    }
+    .item-nav {
+      grid-area: nav;
+      /* TBD Gradient alignment when necessary */
+      /* background-color: antiquewhite; */
+    }
+    .item-left {
+      grid-area: sideleft;
+      background-image: linear-gradient(155deg, #e8e8e8, silver);
+    }
+    .item-main {
+      grid-area: main;
+      background-image: linear-gradient(135deg, #e8e8e8, rgb(197, 197, 197), #e8e8e8);
+    }
+    .item-right {
+    grid-area: sideright;
+    background-image: linear-gradient(208deg, silver, #e8e8e8);
+    }
+    .item-foot {
+      grid-area: foot;
+      background-image: linear-gradient(145deg, silver, #e8e8e8);
+    }
+
+    .container{
+        border: 2px solid black;
+        border-radius: 2%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+            "head head head"
+            "nav nav nav"
+            "sideleft main sideright"
+            "sideleft main sideright"
+            "sideleft main sideright"
+            "sideleft main sideright"
+            "foot foot foot";
+        }
+
+  h2.footer {
+      color: #06114F;
+      font-family: 'Libre Barcode 39 Text', cursive;
+      font-size: xx-large;
+      text-align: right;
+  }
