@@ -16,11 +16,11 @@ div#formcol1 {
 
 label {
 	margin-right: .3em;
-	width: 6em;
+	width: 6.3em;
 	display: inline-block;
 }
 
-.formcol1 li{
+#formcol1 li{
 	list-style: none;
 }
 
