@@ -12,6 +12,7 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,13 +26,16 @@
  <h1>2020 Proposal Form</h1>
  <fieldset>
     <legend>Speaker Info</legend>
+    <p>
+        Required fields are red
+    </p>
     <ul>
         <li>
-            <label for="fstspkr1">First Name:</label>
+            <label for="fstspkr1" class="reqfield">* First Name:</label>
             <input id="fstspkr1" name="fstspkr1" type="text" class="reqfield" />
         </li>
         <li>
-            <label for="lstname1">Last Name:</label>
+            <label for="lstname1" class="reqfield">* Last Name:</label>
             <input id="lstname1" name="lstname1" type="text" class="reqfield"  />
         </li>
         <li>
@@ -47,22 +51,27 @@
             <input id="department1" name="department1" type="text"  />
         </li>
         <li>
-            <label for="address1">Address:</label>
+            <label for="address1" class="reqfield">* Address:</label>
             <input id="address1" class="reqfield" name="address1" type="text" />
         </li>
    </ul>
  </fieldset>
-
-
+<br>
 </div> <!-- end of formcol1 div -->
     <div id="multchoice">
     <fieldset>
         <legend>Type of Presentation</legend>
-    
-        <p><span>Lecture:</span>	<span><input value="1" id="TypeofPres_lec" name="p-type" type="radio" /> 
-        </span>
-           <span>Computer Lab:</span>	<span>
-           <input value="2" id="TypeofPres_lab" name="p-type" type="radio"  /></span></p>
+        <p>
+            <span>
+                <input value="1" id="TypeofPres_lec" name="p-type" type="radio" />
+                    <label for="TypeofPres_lec" class="label_radio">Lecture</label> 
+            </span>
+            <br>
+            <span>
+                <input value="2" id="TypeofPres_lab" name="p-type" type="radio"  />
+                    <label for="TypeofPres_lab" class="label_radio">Computer Lab</label>
+            </span>
+        </p>
     </fieldset>
 
  	<p class="submit-button">    

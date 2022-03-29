@@ -3,6 +3,14 @@
 
 /* form styling */
 
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+fieldset {
+	background-color: white;
+	border: 3px solid black;
+}
 
 #wrapper {
 	width: 60%;
@@ -15,13 +23,41 @@ div#formcol1 {
 }
 
 label {
-	margin-right: 3em;
-	width: 6.3em;
+	margin-right: .3em;
+	width: 6.5em;
 	display: inline-block;
+	text-align: right;
+}
+
+.label_radio {
+	margin-right: .3em;
+	width: 7em;
+	display: inline-block;
+	text-align: left;
 }
 
 #formcol1 li{
 	list-style: none;
+}
+
+.reqfield {
+	color: darkred;
+	font-weight: bold;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9;
+	color: black;
+}
+
+legend {
+	font-size: larger;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, 	
+input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important;
+	background-color: #d13e57 !important;
 }
 
 
