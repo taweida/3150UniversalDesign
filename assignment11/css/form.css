@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	margin-right: .3em;
+	width: 1em;
+	display: inline-block;
+}
+
+.formcol1 li{
+	list-style: none;
+}
+
+
+/* end of form css */
+	
